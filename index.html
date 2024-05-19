@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Симуляция кормления котиков</title>
+
+    <!-- <link rel="stylesheet" href="calc.css" /> -->
+    <script type="text/javascript" src="feedcats.js" defer></script>
+  </head>
+  <body>
+    <h1>Симулятор кормления котиков</h1>
+    <form>
+      <label for="n">Количество котиков (n)</label>
+      <input id="n" min="0" type="number" />
+      <br />
+      <label for="b">Сколько корма съедает котик (b)</label>
+      <input id="b" min="0" type="number" />
+      <br />
+      <label for="m">Вместительность миски (m)</label>
+      <input id="m" min="0" type="number" />
+      <br />
+      <label for="t">Длительность питания котика (t)</label>
+      <input id="t" min="0" type="number" />
+      <br />
+      <label for="r">Длительность наполнения миски (r)</label>
+      <input id="r" min="0" type="number" />
+      <br />
+
+      <button id="submit-button">Запустить</button>
+    </form>
+    <h1>Результаты</h1>
+    <div id="results"></div>
+  </body>
+</html>
